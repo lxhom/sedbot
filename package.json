@@ -1,0 +1,16 @@
+{
+  "name": "sedbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "deta": "0.0.8",
+    "shelljs": "^0.8.4",
+    "twit": "^2.2.11"
+  }
+}
