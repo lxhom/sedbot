@@ -1,6 +1,6 @@
 # sedbot
 
-This is a bot which responds to tweets with `$sedthis (sed magic)` with the sed magic applied to the tweet above the mention.
+This is a bot which responds to tweets containing `$sedthis (sed magic)` with the sed magic applied to the tweet above the mention.
 
 This bot was written to be used with [deta](https://deta.sh) (with a 1 minute cron), but you can use it locally.
 
