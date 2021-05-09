@@ -36,7 +36,7 @@ let getDateSecondsAge = string => (Date.now() - new Date(string)) / 1000
 let execSed = (text, script) => {
   fs.writeFileSync("/tmp/t", text);
   fs.writeFileSync("/tmp/s", script);
-  return child_process.execSync("sed -f /tmp/s /tmp/t").toString()
+  return child_process.execSync("./sed --sandbox -f /tmp/s /tmp/t").toString()
 }
 
 // deta stuff (replace this with getTaggedTweets() if you want to run it locally
